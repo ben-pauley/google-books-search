@@ -10,8 +10,8 @@ This application does not need to be installed, as it can be viewed live on GitH
 
 ## Screenshot of Deployed Application
 
-![book search](/public/img/app1.png?raw=true)
-![saved books](/public/img/app2.png?raw=true)
+![book search](/assets/img/app1.png?raw=true)
+![saved books](/assets/img/app2.png?raw=true)
 
 ## Software Used
 
