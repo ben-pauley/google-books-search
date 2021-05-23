@@ -6,7 +6,7 @@ In this repository, you will find my Google Books Search application created usi
 
 ## Installation
 
-This application does not need to be installed, as it can be viewed live on GitHub pages at the following URL. [https://bjp-book-search.herokuapp.com/search](https://bjp-book-search.herokuapp.com/search)
+This application does not need to be installed, as it can be viewed live on Heroku at the following URL: [https://bjp-book-search.herokuapp.com/search](https://bjp-book-search.herokuapp.com/search)
 
 ## Screenshot of Deployed Application
 
