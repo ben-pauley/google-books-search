@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Menu, Container, Button, Icon } from "semantic-ui-react";
+import { Menu, Container, Button } from "semantic-ui-react";
 import { useStoreContext } from "../../utils/GlobalState";
 
 function Nav(props) {

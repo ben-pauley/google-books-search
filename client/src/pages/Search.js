@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Input, Header, Item } from "semantic-ui-react";
+import { Container, Input, Item } from "semantic-ui-react";
 import API from "../utils/API";
 import { useStoreContext } from "../utils/GlobalState";
 import BookItem from "../components/BookItem";
