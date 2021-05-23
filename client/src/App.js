@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Saved from "./pages/Saved";
 import Search from "./pages/Search";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+import Tabs from "./components/Tabs";
 import PageHeader from "./components/PageHeader";
 import UpdateMessage from "./components/UpdateMessage";
 import { StoreProvider } from "./utils/GlobalState";
@@ -37,7 +37,7 @@ function App() {
         <UpdateMessage savedUpdate={savedUpdate} />
         <StoreProvider>
           <PageHeader />
-          <Nav />
+          <Tabs />
           <Switch>
             <Route exact path="/" component={Search} />
             <Route exact path="/search" component={Search} />

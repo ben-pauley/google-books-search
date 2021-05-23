@@ -1,7 +1,9 @@
+.message-container {
+  margin-left: 15px;
+}
+
 .update-message {
   position: fixed !important;
   width: 250px !important;
-  top: 20;
-  z-index: 99;
-  opacity: 0.8;
+  z-index: 10;
 }

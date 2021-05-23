@@ -5,9 +5,9 @@ import { Message, Transition } from "semantic-ui-react";
 const UpdateMessage = (props) => {
   const { isVisible, favorite } = props.savedUpdate;
   return (
-    <Transition.Group animation="fade" duration={500}>
+    <Transition.Group animation="fade" duration={100}>
       {isVisible && (
-        <div>
+        <div className="message-container">
           <Message
             className="update-message"
             positive

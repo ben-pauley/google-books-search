@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Menu, Container, Button } from "semantic-ui-react";
 import { useStoreContext } from "../../utils/GlobalState";
 
-function Nav(props) {
+function Tabs(props) {
   const [state, dispatch] = useStoreContext();
 
   const handleClick = () => {
@@ -37,4 +37,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default Tabs;
